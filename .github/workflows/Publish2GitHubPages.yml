@@ -5,11 +5,6 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-    inputs:
-      deploy_pages:
-        description: 'Deploy to GitHub Pages.'
-        required: true
-        type: boolean
 
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
