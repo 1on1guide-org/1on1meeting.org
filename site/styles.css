@@ -41,6 +41,9 @@ blockquote{border-left:3px solid var(--accent);margin:8px 0;padding:8px 12px;col
 .kicker{letter-spacing:.08em;text-transform:uppercase;color:#a7c3cf;font-weight:700;font-size:12px}
 .badge{display:inline-block;padding:2px 8px;border-radius:999px;border:1px solid var(--border);color:var(--muted);font-size:12px}
 .two-col{display:grid;grid-template-columns:1fr;gap:16px}
+.schedule.two-col{grid-template-columns:1fr 1fr}
+.grid.speakers{grid-template-columns:repeat(12,1fr)}
+.speaker-card{grid-column:span 12}
 @media (min-width: 900px){
   .schedule.two-col{grid-template-columns:1fr 1fr}
   .grid.speakers{grid-template-columns:repeat(12,1fr)}
